@@ -8,9 +8,10 @@ import Footer from './components/Footer.vue'
     <NavBar />
   </header>
   <main flex px-7 py-10 w-full>
-    <div w-70ch m-auto>
+    <div w-70ch m-auto bg-r>
       <slot />
       <Footer />
     </div>
   </main>
+  <Plum />
 </template>
